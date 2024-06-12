@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oslc4j_tc:Toolchain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oslc4j_ai="http://org.eclipse.lyo/oslc4j/adaptorInterface" xmlns:oslc4j_tc="http://org.eclipse.lyo/oslc4j/toolChain">
+  <adaptorInterfaces name="OSLC Server QM DocDir">
+    <serviceProviderCatalog title="Service Provider Catalog" description="Service Provider Catalog">
+      <serviceProviders title="Service Provider" description="Service Provider"/>
+    </serviceProviderCatalog>
+    <specification/>
+    <configuration xsi:type="oslc4j_ai:MavenServerConfiguration" rootServerBaseUrl="http://localhost:8080/" applicationContextPath="/oslcQmDocDirServer" servletUrlPattern="/service/*" generateJspFilesForOslcUI="true" jettyPort="8080">
+      <generalConfiguration filesBasePath="." javaBasePackageName="lyo.eigeneOslcAdapter"/>
+      <projectConfiguration xsi:type="oslc4j_ai:MavenProjectConfiguration" lyoVersion="5.1.1.Final" groupId="lyo.eigeneOslcAdapter.qm" artifactId="qmArtefacte" version="0.0.1-SNAPSHOT"/>
+    </configuration>
+  </adaptorInterfaces>
+  <specification/>
+  <vocabularies/>
+</oslc4j_tc:Toolchain>

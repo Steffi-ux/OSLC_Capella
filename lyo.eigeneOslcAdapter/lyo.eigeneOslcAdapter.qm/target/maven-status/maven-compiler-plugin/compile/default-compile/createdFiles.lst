@@ -1,0 +1,13 @@
+lyo\eigeneOslcAdapter\servlet\ServiceProvidersFactory.class
+lyo\eigeneOslcAdapter\ResourcesFactory.class
+lyo\eigeneOslcAdapter\ServerConstants.class
+lyo\eigeneOslcAdapter\services\ServiceProviderCatalogService.class
+lyo\eigeneOslcAdapter\services\ResourceShapeService.class
+lyo\eigeneOslcAdapter\servlet\Application.class
+lyo\eigeneOslcAdapter\servlet\ApplicationBinder.class
+lyo\eigeneOslcAdapter\services\ServiceProviderService.class
+lyo\eigeneOslcAdapter\servlet\ApplicationBinder$ResourcesFactoryFactory.class
+lyo\eigeneOslcAdapter\servlet\ServiceProviderCatalogSingleton.class
+lyo\eigeneOslcAdapter\servlet\ServletListener.class
+lyo\eigeneOslcAdapter\RestDelegate.class
+lyo\eigeneOslcAdapter\ServiceProviderInfo.class
